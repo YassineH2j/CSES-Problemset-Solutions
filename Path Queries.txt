@@ -1,0 +1,15 @@
+Prequisites:
+- DFS
+- Euler Tour - Tree traversal array
+- Range Sum / Point Update Queries
+
+Approach :
+- Updating a node's value in the tree means updating its value in the tree traversal array in all its positions (here two positions : in the first and last positions of the node's subtree subarray)
+- The sum from nodes's values from the root to any node is equal to the sum of the prefix values ending at the first position of that node.
+--> Need of Segment Tree (My choice) or Fenwick Tree
+Let's note the first position of node in tree traversal array as l[node], and the second position as r[node].
+--> First Type Query (1, node, val) :
+	Update seg[l[node]] by val
+	Update seg[r[node]] by -val
+--> Second Type Query (2, node) :
+	Output the result of the segment tree query from 1 to l[node]
