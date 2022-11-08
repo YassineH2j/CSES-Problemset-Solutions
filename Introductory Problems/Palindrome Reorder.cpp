@@ -1,5 +1,6 @@
-//Solved by Aziz Smiri
+//Palindrome Reorder - Aziz Smiri
 #include<bits/stdc++.h>
+
 using namespace std;
 
 int occ[26] ;
@@ -31,4 +32,5 @@ int main() {
     string s3 = s1 ;
     reverse(s3.begin() , s3.end()) ;
     cout<<s1 + s2 + s3 <<endl;
+    return 0;
 }

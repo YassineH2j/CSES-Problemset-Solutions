@@ -1,4 +1,4 @@
-//Solved by Saif Khelil
+//Weird Algorithm - Saif Khelil
 #include<bits/stdc++.h>
 
 using namespace std;

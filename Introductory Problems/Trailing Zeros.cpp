@@ -1,5 +1,6 @@
-//Solved by Yassine Hajji
+//Trailing Zeros - Yassine Hajji
 #include<bits/stdc++.h>
+
 using namespace std;
 
 int main() {
